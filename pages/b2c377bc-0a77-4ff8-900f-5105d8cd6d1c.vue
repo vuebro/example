@@ -19,16 +19,16 @@ const { id } = defineProps(["id"]),
   { title, description } = inject("pages")[id],
   features = [
     {
-      name: "Самый простой сайт",
-      text: "Мы делаем самый простой сайт на vueS3",
+      name: "The Simplest Website",
+      text: "We create the simplest website using vueS3",
     },
     {
-      name: "Самый быстрый сайт",
-      text: "Мы делаем сайт на vueS3 очень быстро",
+      name: "The Fastest Website",
+      text: "We build websites on vueS3 very quickly",
     },
     {
-      name: "Самый технологичный сайт",
-      text: "Мы делаем сайт, используя самые современные технологии",
+      name: "The Most Technologically Advanced Website",
+      text: "We create websites using the latest technologies",
     },
-  ];
+];
 </script>

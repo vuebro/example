@@ -12,5 +12,5 @@ import { getParagraph } from "speech-code";
 
 const { id } = defineProps(["id"]),
   { title, description } = inject("pages")[id],
-  text = Array(12).fill().map(() => getParagraph());
+  text = Array(12).fill().map(() => getParagraph(undefined, "en"));
 </script>
