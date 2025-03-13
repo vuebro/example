@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-dvh" un-cloak>
     <el-page-header :icon="AlarmClock" :content="sel.title" :title="title" @back="$router.push('/')"
-      class="sticky top-0 z-50 pa-4 border-b bg-neutral-50" />
+      class="sticky top-0 z-50 pa-4 border-b bg-neutral-50"></el-page-header>
     <router-view></router-view>
   </div>
   <div class="flex flex-col gap-8 items-center bg-neutral-200 pa-12 not-prose" un-cloak>
