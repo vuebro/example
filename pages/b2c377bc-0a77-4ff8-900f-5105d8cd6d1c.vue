@@ -11,12 +11,11 @@
     </div>
   </div>
 </template>
-
 <script setup>
 import { inject } from "vue";
-
 const { id } = defineProps(["id"]),
-  { title, description } = inject("pages")[id],
+  pages = inject("pages"),
+  { title, description } = pages[id],
   features = [
     {
       name: "The Simplest Website",
@@ -30,5 +29,5 @@ const { id } = defineProps(["id"]),
       name: "The Most Technologically Advanced Website",
       text: "We create websites using the latest technologies",
     },
-];
+  ];
 </script>

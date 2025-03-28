@@ -5,12 +5,11 @@
     <p v-for="paragraph in text" class="text-justify">{{ paragraph }}</p>
   </div>
 </template>
-
 <script setup>
 import { inject } from "vue";
 import { getParagraph } from "speech-code";
-
 const { id } = defineProps(["id"]),
-  { title, description } = inject("pages")[id],
+  pages = inject("pages"),
+  { title, description } = pages[id],
   text = Array(12).fill().map(() => getParagraph(undefined, "en"));
 </script>

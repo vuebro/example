@@ -7,10 +7,9 @@
     </el-card>
   </div>
 </template>
-
 <script setup>
 import { inject } from "vue";
-
 const { id } = defineProps(["id"]),
-  { i, title, description } = inject("pages")[id];
+  pages = inject("pages"),
+  { i, title, description } = pages[id];
 </script>
