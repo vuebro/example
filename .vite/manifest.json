@@ -1,133 +1,20 @@
 {
-  "_ajv-keywords-CuM6mo8B.js": {
-    "file": "assets/ajv-keywords-CuM6mo8B.js",
-    "name": "ajv-keywords"
+  "_compiler-sfc-BQpO9ep4.js": {
+    "file": "assets/compiler-sfc-BQpO9ep4.js",
+    "name": "compiler-sfc"
   },
-  "_debug-CP4J2T3R.js": {
-    "file": "assets/debug-CP4J2T3R.js",
-    "name": "debug",
-    "imports": [
-      "_ajv-keywords-CuM6mo8B.js",
-      "_ms-CzQ2E3wO.js"
-    ]
-  },
-  "_destr-Cx7WjB9q.js": {
-    "file": "assets/destr-Cx7WjB9q.js",
-    "name": "destr"
-  },
-  "_fast-deep-equal-C148XJoK.js": {
-    "file": "assets/fast-deep-equal-C148XJoK.js",
-    "name": "fast-deep-equal"
-  },
-  "_fast-uri-J6I7s6O_.js": {
-    "file": "assets/fast-uri-J6I7s6O_.js",
-    "name": "fast-uri"
-  },
-  "_hookable-B7_1qfUG.js": {
-    "file": "assets/hookable-B7_1qfUG.js",
-    "name": "hookable"
-  },
-  "_iconify-DlADaerg.js": {
-    "file": "assets/iconify-DlADaerg.js",
-    "name": "iconify",
-    "imports": [
-      "_debug-CP4J2T3R.js"
-    ]
-  },
-  "_jridgewell-9KHfGwW6.js": {
-    "file": "assets/jridgewell-9KHfGwW6.js",
-    "name": "jridgewell"
-  },
-  "_magic-string-D9CdRQHO.js": {
-    "file": "assets/magic-string-D9CdRQHO.js",
-    "name": "magic-string",
-    "imports": [
-      "_jridgewell-9KHfGwW6.js"
-    ]
-  },
-  "_ms-CzQ2E3wO.js": {
-    "file": "assets/ms-CzQ2E3wO.js",
-    "name": "ms"
-  },
-  "_ufo-LxZlbPj-.js": {
-    "file": "assets/ufo-LxZlbPj-.js",
-    "name": "ufo"
-  },
-  "_unhead-BG2aZ-uN.js": {
-    "file": "assets/unhead-BG2aZ-uN.js",
-    "name": "unhead",
-    "imports": [
-      "_hookable-B7_1qfUG.js"
-    ]
-  },
-  "_unocss-CO-gQP3e.js": {
-    "file": "assets/unocss-CO-gQP3e.js",
-    "name": "unocss",
-    "imports": [
-      "node_modules/ofetch/dist/index.mjs",
-      "_iconify-DlADaerg.js",
-      "_magic-string-D9CdRQHO.js"
-    ],
-    "dynamicImports": [
-      "node_modules/ofetch/dist/index.mjs",
-      "node_modules/ofetch/dist/index.mjs",
-      "node_modules/ofetch/dist/index.mjs"
-    ],
-    "css": [
-      "assets/unocss-DeJTMLhw.css"
-    ]
-  },
-  "_unocss-DeJTMLhw.css": {
-    "file": "assets/unocss-DeJTMLhw.css",
-    "src": "_unocss-DeJTMLhw.css"
-  },
-  "_uuid-C_lTrkZC.js": {
-    "file": "assets/uuid-C_lTrkZC.js",
-    "name": "uuid"
-  },
-  "_vue3-sfc-loader-DdTOzAd6.js": {
-    "file": "assets/vue3-sfc-loader-DdTOzAd6.js",
-    "name": "vue3-sfc-loader"
-  },
-  "_vues3-D1ixC1qx.js": {
-    "file": "assets/vues3-D1ixC1qx.js",
-    "name": "vues3",
-    "imports": [
-      "_vueuse-BnEJPnEc.js",
-      "_uuid-C_lTrkZC.js",
-      "_ajv-keywords-CuM6mo8B.js",
-      "_fast-deep-equal-C148XJoK.js",
-      "_fast-uri-J6I7s6O_.js"
-    ]
-  },
-  "_vueuse-BnEJPnEc.js": {
-    "file": "assets/vueuse-BnEJPnEc.js",
-    "name": "vueuse"
+  "_sucrase-DTaNgZ3p.js": {
+    "file": "assets/sucrase-DTaNgZ3p.js",
+    "name": "sucrase"
   },
   "index.html": {
-    "file": "assets/index-Cxj1B8l7.js",
+    "file": "assets/index-Bw7I9lVW.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_unocss-CO-gQP3e.js",
-      "_unhead-BG2aZ-uN.js",
-      "_vues3-D1ixC1qx.js",
-      "_iconify-DlADaerg.js",
-      "_vueuse-BnEJPnEc.js",
-      "_vue3-sfc-loader-DdTOzAd6.js",
-      "_uuid-C_lTrkZC.js",
-      "node_modules/ofetch/dist/index.mjs",
-      "_destr-Cx7WjB9q.js",
-      "_ufo-LxZlbPj-.js",
-      "_magic-string-D9CdRQHO.js",
-      "_jridgewell-9KHfGwW6.js",
-      "_hookable-B7_1qfUG.js",
-      "_ajv-keywords-CuM6mo8B.js",
-      "_fast-deep-equal-C148XJoK.js",
-      "_fast-uri-J6I7s6O_.js",
-      "_debug-CP4J2T3R.js",
-      "_ms-CzQ2E3wO.js"
+      "_sucrase-DTaNgZ3p.js",
+      "_compiler-sfc-BQpO9ep4.js"
     ],
     "dynamicImports": [
       "src/views/MultiView.vue",
@@ -139,95 +26,37 @@
       "assets/index-vGiKZPT9.css"
     ]
   },
-  "node_modules/ofetch/dist/index.mjs": {
-    "file": "assets/ofetch-DKyuTA_G.js",
-    "name": "ofetch",
-    "src": "node_modules/ofetch/dist/index.mjs",
-    "isDynamicEntry": true,
-    "imports": [
-      "_destr-Cx7WjB9q.js",
-      "_ufo-LxZlbPj-.js"
-    ]
-  },
   "src/views/MultiView.vue": {
-    "file": "assets/MultiView-CzP81mTz.js",
+    "file": "assets/MultiView-BLvwodt_.js",
     "name": "MultiView",
     "src": "src/views/MultiView.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_vues3-D1ixC1qx.js",
-      "_vueuse-BnEJPnEc.js",
       "index.html",
-      "_uuid-C_lTrkZC.js",
-      "_ajv-keywords-CuM6mo8B.js",
-      "_fast-deep-equal-C148XJoK.js",
-      "_fast-uri-J6I7s6O_.js",
-      "_unocss-CO-gQP3e.js",
-      "node_modules/ofetch/dist/index.mjs",
-      "_destr-Cx7WjB9q.js",
-      "_ufo-LxZlbPj-.js",
-      "_iconify-DlADaerg.js",
-      "_debug-CP4J2T3R.js",
-      "_ms-CzQ2E3wO.js",
-      "_magic-string-D9CdRQHO.js",
-      "_jridgewell-9KHfGwW6.js",
-      "_unhead-BG2aZ-uN.js",
-      "_hookable-B7_1qfUG.js",
-      "_vue3-sfc-loader-DdTOzAd6.js"
+      "_sucrase-DTaNgZ3p.js",
+      "_compiler-sfc-BQpO9ep4.js"
     ]
   },
   "src/views/NotFoundView.vue": {
-    "file": "assets/NotFoundView-DBIYVm1H.js",
+    "file": "assets/NotFoundView-CO_RVhsA.js",
     "name": "NotFoundView",
     "src": "src/views/NotFoundView.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_unhead-BG2aZ-uN.js",
       "index.html",
-      "_hookable-B7_1qfUG.js",
-      "_unocss-CO-gQP3e.js",
-      "node_modules/ofetch/dist/index.mjs",
-      "_destr-Cx7WjB9q.js",
-      "_ufo-LxZlbPj-.js",
-      "_iconify-DlADaerg.js",
-      "_debug-CP4J2T3R.js",
-      "_ajv-keywords-CuM6mo8B.js",
-      "_ms-CzQ2E3wO.js",
-      "_magic-string-D9CdRQHO.js",
-      "_jridgewell-9KHfGwW6.js",
-      "_vues3-D1ixC1qx.js",
-      "_vueuse-BnEJPnEc.js",
-      "_uuid-C_lTrkZC.js",
-      "_fast-deep-equal-C148XJoK.js",
-      "_fast-uri-J6I7s6O_.js",
-      "_vue3-sfc-loader-DdTOzAd6.js"
+      "_sucrase-DTaNgZ3p.js",
+      "_compiler-sfc-BQpO9ep4.js"
     ]
   },
   "src/views/SingleView.vue": {
-    "file": "assets/SingleView-NMG89vtR.js",
+    "file": "assets/SingleView-Caxb0Yfu.js",
     "name": "SingleView",
     "src": "src/views/SingleView.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_vues3-D1ixC1qx.js",
       "index.html",
-      "_uuid-C_lTrkZC.js",
-      "_vueuse-BnEJPnEc.js",
-      "_ajv-keywords-CuM6mo8B.js",
-      "_fast-deep-equal-C148XJoK.js",
-      "_fast-uri-J6I7s6O_.js",
-      "_unocss-CO-gQP3e.js",
-      "node_modules/ofetch/dist/index.mjs",
-      "_destr-Cx7WjB9q.js",
-      "_ufo-LxZlbPj-.js",
-      "_iconify-DlADaerg.js",
-      "_debug-CP4J2T3R.js",
-      "_ms-CzQ2E3wO.js",
-      "_magic-string-D9CdRQHO.js",
-      "_jridgewell-9KHfGwW6.js",
-      "_unhead-BG2aZ-uN.js",
-      "_hookable-B7_1qfUG.js",
-      "_vue3-sfc-loader-DdTOzAd6.js"
+      "_sucrase-DTaNgZ3p.js",
+      "_compiler-sfc-BQpO9ep4.js"
     ]
   }
 }
