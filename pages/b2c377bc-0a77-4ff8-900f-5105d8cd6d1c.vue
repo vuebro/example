@@ -19,11 +19,11 @@ const { id } = defineProps(["id"]),
   features = [
     {
       name: "The Simplest Website",
-      text: "We create the simplest website using vueS3",
+      text: "We create the simplest website using VueBro",
     },
     {
       name: "The Fastest Website",
-      text: "We build websites on vueS3 very quickly",
+      text: "We build websites on VueBro very quickly",
     },
     {
       name: "The Most Technologically Advanced Website",
