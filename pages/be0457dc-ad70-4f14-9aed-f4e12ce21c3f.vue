@@ -22,5 +22,5 @@ const { appContext: { app } } = getCurrentInstance(),
 app.use(ElementPlus);
 </script>
 <style>
-@import "https://cdn.jsdelivr.net/npm/element-plus@^2/dist/index.css";
+@import "https://cdn.jsdelivr.net/npm/element-plus@2/dist/index.css";
 </style>
