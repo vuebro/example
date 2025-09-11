@@ -13,9 +13,9 @@
 </template>
 <script setup>
 import { inject } from "vue";
-const { id } = defineProps(["id"]),
+const { pid } = defineProps(["pid"]),
   pages = inject("pages"),
-  { title, description } = pages[id],
+  { title, description } = pages[pid],
   features = [
     {
       name: "The Simplest Website",

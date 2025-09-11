@@ -8,8 +8,8 @@
 <script setup>
 import { inject } from "vue";
 import { getParagraph } from "speech-code";
-const { id } = defineProps(["id"]),
+const { pid } = defineProps(["pid"]),
   pages = inject("pages"),
-  { title, description } = pages[id],
+  { title, description } = pages[pid],
   text = Array(12).fill().map(() => getParagraph(undefined, "en"));
 </script>

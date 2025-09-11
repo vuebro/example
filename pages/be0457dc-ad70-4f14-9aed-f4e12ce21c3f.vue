@@ -16,9 +16,9 @@ import ElementPlus from "element-plus";
 import { AlarmClock } from "@element-plus/icons-vue";
 import { inject, getCurrentInstance } from "vue";
 const { appContext: { app } } = getCurrentInstance(),
-  { id } = defineProps(["id"]),
+  { pid } = defineProps(["pid"]),
   pages = inject("pages"),
-  { title, description, $children } = pages[id];
+  { title, description, $children } = pages[pid];
 app.use(ElementPlus);
 </script>
 <style>
