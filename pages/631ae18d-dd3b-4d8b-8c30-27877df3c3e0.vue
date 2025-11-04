@@ -9,7 +9,7 @@
 </template>
 <script setup>
 import { inject } from "vue";
-const { pid } = defineProps(["pid"]),
+const { id } = defineProps(["id"]),
   pages = inject("pages"),
-  { i, title, description } = pages[pid];
+  { i, title, description } = pages[id];
 </script>
