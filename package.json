@@ -1,7 +1,7 @@
 {
   "name": "@vuebro/example",
   "description": "VueBro example project: A Vue.js-powered static site generator showcasing multi-page sites with JSON configuration, ESM imports, and SEO optimization.",
-  "homepage": "vuebro.github.io/example",
+  "homepage": "https://vuebro.github.io/example",
   "keywords": [
     "javascript",
     "typescript",
